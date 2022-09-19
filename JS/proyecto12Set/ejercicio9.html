@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>EJERCICIOS PARTE 1</title>
+</head>
+
+<body>
+    <nav class="navbar bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Ejercicio 8</a>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <p>innerHtml controla que puede incluirse en un elemento.</p>
+        <div id="salida"></div>
+    </div>
+
+
+    <script>
+        let dato, num;
+        dato = window.prompt("Introduce un número ?", "0");
+        num = parseInt(dato);
+
+        let resultado = num * 2;
+        document.getElementById("salida").innerHTML = (`El doble es ${resultado} `);
+    </script>
+
+</body>
+
+</html>

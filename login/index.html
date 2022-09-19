@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Este es un formulario simple validado en el Font-End con JavaScript">
+	<meta name="keywords" content="Formulario, validacion con JavaScript, etc.">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+	<section id="contenedor">
+		<h1>Validaci&oacute;n de un formulario con JS en el Front-End</h1>
+
+		<!-- 	el nombre enviar.php puede ser cualquier archivo de lenguaje de programación no solo .php -->
+
+		<form action="accesoCorrecto.html" method="post" id="formulario" name="formulario">
+			<fieldset>
+				<legend>Tus datos:</legend>
+				<label for="usuario">Usuario:</label><br />
+				<input type="text" name="usuario" id="usuario" /><br />
+				<label for="contraseña">Contraseña:</label><br />
+				<input type="text" name="contraseña" id="contraseña" /><br />
+
+
+			</fieldset>
+
+			<button type="button" name="enviar" id="enviar" class="canbio">Enviar</button>&nbsp;&nbsp;&nbsp;<button
+				type="button" id="limpiar" name="limpiar" class="canbio">Limpiar Formulario</button>
+		</form>
+	</section>
+
+
+
+	<script src="js/script.js" type="text/javascript"></script>
+</body>
+
+</html>

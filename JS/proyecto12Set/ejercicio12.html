@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>EJERCICIOS PARTE 1</title>
+</head>
+
+<body>
+    <nav class="navbar bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Ejercicio 8</a>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div id="salida"></div>
+    </div>
+
+    <script>
+        var contador;
+        contador = 1;
+
+        while (contador < 5) {
+            let dato = prompt('Introduce número del 1 al 10:', '');
+            let num = parseInt(dato);
+
+            document.write(` El numero introducido es ${num} </br> `);
+            document.write(` El contador es ${contador} </br> `);
+
+            contador = contador + 1;
+        }
+
+        document.write(` </br><h2>
+                    Fin del programa
+                    contador ya NO es menor que 5.
+                    </h2>
+                    `);
+
+        document.write(`</br> Ultimo numero introducido es ${num}`)
+    </script>
+
+</body>
+
+</html>
